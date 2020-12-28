@@ -1,11 +1,13 @@
+arch:
+  - amd64
+  - ppc64le
 sudo: false
 language: node_js
 node_js:
-  - "0.8"
-  - "0.10"
-  - "0.12"
-  - "4"
-  - "6"
+  - "12"
+  - "13"
+  - "14"
+  - "15"
 
 before_install:
   - travis_retry npm install -g npm@2.14.5
